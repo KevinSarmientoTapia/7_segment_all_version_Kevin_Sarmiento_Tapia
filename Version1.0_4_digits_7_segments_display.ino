@@ -52,13 +52,13 @@ void loop() {    //runs and loops continuously
 
 }
 void Number_to_display(int c, int b, int d, int a) {
- First_digit(a);
+ First_digit(c);
  delay(5);
- Second_digit(d);
+ Second_digit(b);
  delay(5);
- Third_digit(b);
+ Third_digit(d);
  delay(5);
- Fourth_digit(c);
+ Fourth_digit(a);
  delay(5);
 }
 void First_digit(int x) {
